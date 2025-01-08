@@ -1,0 +1,122 @@
+[
+    {
+        "Question": "What is Natural Language Processing (NLP)?",
+        "Generated Answer": "Natural Language Processing (NLP) is a branch of computer science that deals with the processing of natural language."
+    },
+    {
+        "Question": "Explain the difference between NLP and text mining.",
+        "Generated Answer": "Natural Language Processing (NLP) is a branch of computer science that focuses on the processing of natural language."
+    },
+    {
+        "Question": "What are stop words, and why are they removed in NLP?",
+        "Generated Answer": "In NLP, The process of removing words like \u201cand\u201d, \u201cis\u201d, \u201ca\u201d, \u201can\u201d, \u201cthe\u201d from a sentence is called as a. Stemming b. Lemmatization c. Stop word d."
+    },
+    {
+        "Question": "What is tokenization in NLP?",
+        "Generated Answer": "Tokenization is the process of separating a set of words from a set of words."
+    },
+    {
+        "Question": "How can I prepare for a Natural Language Processing (NLP) interview?",
+        "Generated Answer": "You can prepare for an NLP interview by reading books on the subject."
+    },
+    {
+        "Question": "Which technique can be used for noun phrase detection in NLP?",
+        "Generated Answer": "c. Continuous Bag of Words"
+    },
+    {
+        "Question": "What is the purpose of Part-of-Speech (POS) tagging in NLP?",
+        "Generated Answer": "Part-of-Speech (POS) tagging is a method of tagging parts of speech in natural language processing ( NLP ) ."
+    },
+    {
+        "Question": "How does named entity recognition (NER) work, and what are its applications?",
+        "Generated Answer": "Named entity recognition (NER) is the process of recognizing the name of a given entity in a given context."
+    },
+    {
+        "Question": "Define Dependency Parsing and its importance in NLP.",
+        "Generated Answer": "Dependency Parsing Dependency Parsing (DP) is the process of parsing a data set to extract information from it."
+    },
+    {
+        "Question": "What is the Bag-of-Words (BoW) model?",
+        "Generated Answer": "The Bag-of-Words (BoW) model is a word embedding model used in NLP ."
+    },
+    {
+        "Question": "How is TF-IDF used for text representation in NLP?",
+        "Generated Answer": "TF-IDF (Term Frequency-Inverse Document Frequency) is a technique used for text representation in NLP."
+    },
+    {
+        "Question": "What is word embedding, and how is it different from one-hot encoding?",
+        "Generated Answer": "Word embeddings capture multiple dimensions of data and are represented as vectors"
+    },
+    {
+        "Question": "Explain the Skip-Gram model in Word2Vec.",
+        "Generated Answer": "In Word2Vec , a skip-gram model is used for word embeddings ."
+    },
+    {
+        "Question": "How does Transfer Learning improve NLP model performance?",
+        "Generated Answer": "Transfer learning improves the performance of an NLP model."
+    },
+    {
+        "Question": "What are the advantages of using pre-trained models in NLP?",
+        "Generated Answer": "pre-trained models can be used in a wide variety of applications"
+    },
+    {
+        "Question": "How does a Transformer model work in NLP?",
+        "Generated Answer": "a transformer model is a machine learning model"
+    },
+    {
+        "Question": "What is the significance of the attention mechanism in NLP models?",
+        "Generated Answer": "Attention mechanism in neural networks for NLP tasks The attention mechanism in neural networks for NLP tasks is the mechanism by which a network learns to pay attention to a particular task."
+    },
+    {
+        "Question": "How do BERT and GPT differ in their approach to NLP tasks?",
+        "Generated Answer": "BERT is a machine learning method and GPT is a data mining method"
+    },
+    {
+        "Question": "What is a language model, and why is it important in NLP?",
+        "Generated Answer": "Natural Language Processing (NLP) is a branch of computer science that deals with the processing of natural language."
+    },
+    {
+        "Question": "Explain the concept of fine-tuning a pre-trained model for NLP tasks.",
+        "Generated Answer": "Fine-tuning is the process of fine-tuning a pre-trained model for NLP tasks."
+    },
+    {
+        "Question": "How is sentiment analysis performed using NLP techniques?",
+        "Generated Answer": "Sentiment analysis can be performed using a variety of NLP techniques."
+    },
+    {
+        "Question": "What are some real-world applications of NLP in healthcare?",
+        "Generated Answer": "c. Speech Biometric d. Text Summarization"
+    },
+    {
+        "Question": "How does machine translation work in NLP?",
+        "Generated Answer": "machine translation is a form of natural language processing"
+    },
+    {
+        "Question": "What is text summarization, and how can it be implemented in NLP?",
+        "Generated Answer": "Text summarization (TS) is a text-to-machine translation (MT) method that can be implemented in NLP ."
+    },
+    {
+        "Question": "How does question answering work in NLP systems?",
+        "Generated Answer": "a question is posed to the system and the system answers the question"
+    },
+    {
+        "Question": "What are some common challenges in text preprocessing for NLP?",
+        "Generated Answer": "Text Preprocessing Text Preprocessing may refer to:"
+    },
+    {
+        "Question": "How does ambiguity in human language affect NLP systems?",
+        "Generated Answer": "ambiguity in human language affects the accuracy of NLP systems"
+    },
+    {
+        "Question": "What are the limitations of current NLP models?",
+        "Generated Answer": "NLP models are limited in how much information they can store and how much information they can learn."
+    },
+    {
+        "Question": "How does NLP handle multilingual text?",
+        "Generated Answer": "multilingual text processing in an NLP project"
+    },
+    {
+        "Question": "How can NLP models be evaluated for performance and accuracy?",
+        "Generated Answer": "How do you ensure that your NLP model is not biased?"
+    }
+]
