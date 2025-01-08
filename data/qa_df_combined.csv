@@ -1,0 +1,709 @@
+Question,Answer
+"Which of the following techniques can be used for keyword normalization in 
+NLP, the process of converting a keyword into its base form? 
+a. Lemmatization 
+b. Soundex 
+c. Cosine Similarity 
+d. N-grams","a) Lemmatization helps to get to the base form of a word, e.g. are playing -> play, ea ting 
+-> eat, etc.Other options are meant for different purposes."
+"Which of the following techniques can be used to compute the distance 
+between two word vectors in NLP? 
+a. Lemmatization 
+b. Euclidean distance 
+c. Cosine Similarity 
+d. N-grams","b) and c) 
+Distance between two word vectors can be computed using Cosine similarity and Euclidean 
+Distance.  Cosine Similarity establishes a cosine angle between the vector of two words . A cosi ne 
+angle close to each other between two word vectors indicates the words are simil ar and vice a 
+versa. 
+E.g. cosine angle between two words “Football” and “Cricket” will be closer to 1 as co mpared to 
+angle between the words “Football” and “New Delhi”"
+"What are the possible features of a text corpus in NLP? 
+a. Count of the word in a document 
+b. Vector notation of the word 
+c. Part of Speech Tag 
+d. Basic Dependency Grammar 
+e. All of the above",e)All of the above can be used as features of the text corpus.
+"You created a document term matrix on the input data of 20K documents for a 
+Machine learning model. Which of the following can be used to reduce the 
+dimensions of data? 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  1. Keyword Normalization 
+2. Latent Semantic Indexing 
+3. Latent Dirichlet Allocati on 
+ 
+a. only 1 
+b. 2, 3 
+c. 1, 3 
+d. 1, 2, 3",d)
+"Which of the text parsing techniques can be used for noun phrase detection, 
+verb phrase detection, subject detection, and object detection in NLP. 
+a. Part of speech tagging 
+b. Skip Gram and N-Gram extraction 
+c. Continuous Bag of Words 
+d. Dependency Parsing and Constituency Parsing",d)
+"Dissimilarity between words expressed using cosine similarity will have values 
+significantly higher than 0.5 
+a. True 
+b. False",a)
+"Which one of the following are keyword Normalization techniques in NLP 
+a.  Stemming 
+b.  Part of Speech 
+c. Named entity recognition 
+d. Lemmatization","a) and d) 
+Part of Speech (POS) and Named Entity Recognition(NER) are not keyword Norm alization 
+techniques. Named Entity help you extract Organization, Time, Date, City, etc..t ype of entities 
+from the given sentence, whereas Part of Speech helps you extract Noun, Verb, Pronoun, 
+adjective, etc..from the given sentence tokens."
+"Which of the below are NLP use cases? 
+a. Detecting objects from an image 
+b. Facial Recognition 
+c. Speech Biometric 
+d. Text Summarization 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/","(d) 
+a) And b) are Computer Vision use cases, and c) is Speech use case. 
+Only d) Text Summarization is an NLP use case."
+"In a corpus of N documents, one randomly chosen document contains a total 
+of T terms and the term “hello” appears K times.  
+What is the correct value for the product of TF (term frequency) and IDF (inverse-docu ment-
+frequency), if the term “hello” appears in approximately o ne-third of the total documents? 
+a. KT * Log(3) 
+b. T * Log(3) / K 
+c. K * Log(3) / T 
+d. Log(3) / KT","(c) 
+formula for TF is K/T 
+formula for IDF is log(total docs / no of docs containing “data”)  
+= log(1 / (⅓))  
+= log (3) 
+Hence correct choice is Klog(3 )/T"
+"In NLP, The algorithm decreases the weight for commonly used words and 
+increases the weight for words that are not used very much in a collection of 
+documents 
+a. Term Frequency (TF) 
+b. Inverse Document Frequency (IDF) 
+c. Word2Vec 
+d. Latent Dirichlet Allocation (LDA)",b)
+"In NLP, The process of removing words like “and”, “is”, “a”, “an”, “the” from 
+a sentence is called as 
+a. Stemming 
+b. Lemmatization 
+c. Stop word 
+d. All of the above","c) In Lemmatization, all the stop words such as a, an, the, etc.. are removed . One can 
+also define custom stop words for removal. 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/"
+"In NLP, The process of converting a sentence or paragraph into tokens is 
+referred to as Stemming 
+a. True 
+b. False","b) The statement describes the process of tokenization and not stemming, hence it  is 
+False."
+"In NLP, Tokens are converted into numbers before giving to any Neural 
+Network 
+a. True 
+b. False","a) In NLP, all words are converted into a number before feeding to a Neural Network. 
+ 
+Q14 Identify the odd one out 
+a. nltk 
+b. scikit learn 
+c. SpaCy 
+d. BERT 
+ 
+Answer : d) All the ones mentioned are NLP libraries except BERT, which is a word embedding 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q15 TF-IDF helps you to establish? 
+a. most frequently occurring word in the document 
+b. most important word in the document 
+ 
+Answer : b) TF-IDF helps to establish how important a particular word is in the contex t of the 
+document corpus. TF-IDF takes into account the number of times the word appears in the 
+document and offset by the number of documents that appear in the corpus. 
+● TF is the frequency of term divided by a total number of terms in the docu ment. 
+● IDF is obtained by dividing the total number of documents by the number of documen ts 
+containing the term and then taking the logarithm of that quotient. 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  ● Tf.idf is then the multiplication of two values TF and IDF. 
+ 
+Q16 In NLP, The process of identifying people, an organization from a given 
+sentence, paragraph is called 
+a. Stemming 
+b. Lemmatization 
+c. Stop word removal 
+d. Named entity recognition 
+ 
+Answer : d) 
+ 
+Q17 Which one of the following is not a pre-processing technique in NLP 
+a. Stemming and Lemmatization 
+b. converting to lowercase 
+c. removing punctuations 
+d. removal of stop words 
+e. Sentiment analysis 
+ 
+Answer : e) Sentiment Analysis is not a pre-processing technique. It is done after pr e-processing 
+and is an NLP use case. All other listed ones are used as part of statement pre-processing.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q18 In text mining, converting text into tokens and then converting them into an 
+integer or floating-point vectors can be done using 
+a. CountVectorizer 
+b.  TF-IDF 
+c. Bag of Words 
+d. NERs 
+ 
+Answer : a) CountVectorizer helps do the above, while others are not applicable. 
+text =[“Rahul is an avid writer, he enjoys studying understanding and presen ting. He loves to 
+play”]  
+vectorizer = CountVectorizer() 
+vectorizer.fit(text) 
+vector = vectorizer.transform(text) 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  print(vector.toarray()) 
+output  
+[[1 1 1 1 2 1 1 1 1 1 1 1 1 1]] 
+The second section of the interview questions covers advanced NLP techniques such as 
+Word2Vec, GloVe  word embeddings, and advanced models such as GPT, ELMo, BERT, XLNET 
+based questions, and explanations."
+"In NLP, Words represented as vectors are called as Neural Word Embedding s 
+a. True 
+b. False","a) Word2Vec, GloVe based models build word embedding vectors that are 
+multidimensional."
+"In NLP, Context modeling is supported with which one of the following word 
+embeddings 
+1. a. Word2Vec 
+2. b) GloVe 
+3. c) BERT 
+4. d) All of the above","c) Only BERT (Bidirectional Encoder Representations from Transformer) support s 
+context modelling where the previous and next sentence context is taken into consider ation. In 
+Word2Vec, GloVe only word embeddings are considered and previous and next sentence context 
+is not considered."
+"In NLP, Bidirectional context is supported by which of the following 
+embedding 
+a. Word2Vec 
+b. BERT 
+c. GloVe 
+d. All the above","b) Only BERT provides a bidirectional context. The BERT model uses the previous and 
+the next sentence to arrive at the context.Word2Vec and GloVe are word embeddings, they do 
+not provide any context."
+"Which one of the following Word embeddings can be custom trained for a 
+specific subject in NLP 
+a. Word2Vec 
+b. BERT 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  c. GloVe 
+d. All the above","b) BERT allows Transform Learning on the existing pre-trained models and hence can  
+be custom trained for the given specific subject, unlike Word2Vec and GloVe where existing word 
+embeddings can be used, no transfer learning on text is possible."
+"Word embeddings capture multiple dimensions of data and are represented 
+as vectors 
+a. True 
+b. False",a)
+"In NLP, Word embedding vectors help establish distance between two tokens 
+a. True 
+b. False","a) One can use Cosine similarity to establish distance between two vectors represented 
+through Word Embeddings"
+"Language Biases are introduced due to historical data used during training of 
+word embeddings, which one amongst the below is not an example of bias 
+a. New Delhi is to India, Beijing is to China 
+b. Man is to Computer, Woman is to Homemaker","a) 
+Statement b) is a bias as it buckets Woman into Homemaker, whereas statement  a) is not a 
+biased statement."
+"Which of the following will be a better choice to address NLP use cases such 
+as semantic similarity, reading comprehension, and common sense reasoning 
+a. ELMo 
+b. Open AI’s GPT  
+c. ULMFit","b) Open AI’s GPT is able to learn complex pattern in data by using the Tr ansformer 
+models Attention mechanism and hence is more suited for complex use cases such as semantic 
+similarity, reading comprehensions, and common sense reasoning."
+"Transformer architecture was first introduced with? 
+a. GloVe 
+b. BERT 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  c. Open AI’s GPT  
+d. ULMFit","c) ULMFit has an LSTM based Language modeling architecture. This got replaced into 
+Transformer architecture with Open AI’s GPT"
+"Which of the following architecture can be trained faster and needs less 
+amount of training data 
+a. LSTM based Language Modelling 
+b. Transformer architecture","b) Transformer architectures were supported from GPT onwards and were faster to 
+train and needed less amount of data for training too."
+"Same word can have multiple word embeddings possible with ____________? 
+a. GloVe 
+b. Word2Vec 
+c. ELMo 
+d. nltk","c) EMLo word embeddings supports same word with multiple embeddings, this help s 
+in using the same word in a different context and thus captures the context than just meaning of 
+the word unlike in GloVe and Word2Vec. Nltk is not a word embedding. 
+ 
+ 
+ 
+ 
+Q30 For a given token, its input representation is the sum of embedding from the 
+token, segment and position embedding 
+a. ELMo 
+b. GPT 
+c. BERT 
+d. ULMFit 
+ 
+Answer :  c) BERT uses token, segment and position embedding."
+"Trains two independent LSTM language model left to right and right to left and 
+shallowly concatenates them 
+a. GPT 
+b. BERT 
+c. ULMFit 
+d. ELMo 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/","d) ELMo tries to train two independent LSTM language models (left to right  and right to 
+left) and concatenates the results to produce word embedding."
+"Uses unidirectional language model for producing word embedding 
+a. BERT 
+b. GPT 
+c. ELMo 
+d. Word2Vec","b) GPT is a unidirectional model and word embedding are produced by training on 
+information flow from left to right. ELMo is bidirectional but shall ow. Word2Vec provides simple 
+word embedding."
+"In this architecture, the relationship between all words in a sentence is 
+modelled irrespective of their position. Which architecture is this? 
+a. OpenAI GPT 
+b. ELMo 
+c. BERT 
+d. ULMFit","c)BERT Transformer architecture models the relationship between each word and all 
+other words in the sentence to generate attention scores. These attention scores are later used 
+as weights for a weighted average of all words’ representations which is fed into a f ully-connected 
+network to generate a new representation."
+"Transformer model pays attention to the most important word in Sentence 
+a. True 
+b. False 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/","a) Attention mechanisms in the Transformer model are used to model the relatio nship 
+between all words and also provide weights to the most important word."
+"Which NLP model gives the best accuracy amongst the following? 
+a. BERT 
+b. XLNET 
+c. GPT-2 
+d. ELMo","b) XLNET has given best accuracy amongst all the models. It has outperformed B ERT 
+on 20 tasks and achieves state of art results on 18 tasks including sentiment an alysis, question 
+answering, natural language inference, etc."
+"Permutation Language models is a feature of 
+a. BERT 
+b. EMMo 
+c. GPT 
+d. XLNET","d) XLNET provides permutation-based language modelling and is a key difference from 
+BERT. In permutation language modeling, tokens are predicted in a random manner and no t 
+sequential. The order of prediction is not necessarily left to right and can be right to left. The 
+original order of words is not changed but a prediction can be random.  
+The conceptual difference between BERT and XLNET can be seen from the following diagram."
+"There have some various common elements of natural language processing. 
+Those elements are very important for understanding NLP properly, can you please 
+explain the same in details with an example?","There have a lot of components normally using by natural language processing (NLP). Some  of 
+the major components are explained below: 
+● Extraction of Entity: It actually identifying and extracting some critical data from the 
+available information which help to segmentation of provided sentence on identifying ea ch 
+entity. It can help in identifying one human that it’s fictional or real, same kind of real ity 
+identification for any organization, events or any geographic location etc. 
+● The analysis in a syntactic way: it mainly helps for maintaining ordering properly of the  
+available words. 
+Q64 In the case of processing natural language, we normally mentioned one 
+common terminology NLP and binding every language with the same terminology 
+properly. Please explain in details about this NLP terminology with an example? 
+Answer: 
+This is the basic NLP Interview Questions asked in an interview. There have some several factors 
+available in case of explaining natural language processing. Some of the key factors are given  
+below: 
+● Vectors and Weights: Google Word vectors, length of TF-IDF, varieties documents, w ord 
+vectors, TF-IDF. 
+● Structure of Text: Named Entities, tagging of part of speech, identifying the head of the 
+sentence. 
+● Analysis of sentiment: Know about the features of sentiment, entities available for the 
+sentiment, sentiment common dictionary. 
+● Classification of Text: Learning supervising, set off a train, set of validation  in Dev, Set of 
+define test, a feature of the individual text, LDA. 
+● Reading of Machine Language: Extraction of the possible entity, linking with an individual 
+entity, DBpedia, some libraries like Pikes or FRED. 
+ 
+Q65 Explain briefly about word2vec 
+Word2Vec  embeds words in a lower-dimensional vector space using a shallow neural networ k. 
+The result is a set of word-vectors where vectors close together in vector space have similar 
+meanings based on context, and word-vectors distant to each other have differing mea nings. For 
+example, apple and orange would be close together and apple and gravity would be relative ly far. 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  There are two versions of this model based on skip-grams (SG) and continuous- bag-of-words 
+(CBOW). 
+ 
+Q66 What are the metrics used to test an NLP model? 
+Accuracy, Precision, Recall and F1. Accuracy is the usual ratio of the prediction t o the desired 
+output. But going just be accuracy is naive considering the complexities involved.  
+ 
+Q67 What are some ways we can preprocess text input? 
+Here are several preprocessing steps that are commonly used for NLP tasks: 
+● case normalization: we can convert all input to the same case (lowercase or uppercase) 
+as a way of reducing our text to a more canonical form 
+● punctuation/stop word/white space/special characters removal: if we don’t think these 
+words or characters are relevant, we can remove them to reduce the feature space 
+● lemmatizing/stemming: we can also reduce words to their inflecti onal forms (i.e. walks → 
+walk) to further trim our vocabulary 
+● generalizing irrelevant information: we can replace all numbers with a <NUMBER > token 
+or all names with a <NAME> token 
+ 
+ 
+Q68 How does the encoder-decoder structure work for language modelling? 
+The encoder-decoder structure is a deep learning model architecture responsible for several s tate 
+of the art solutions, including Machine Translation. 
+The input sequence is passed to the encoder where it is transformed to a fixed -dimensional vector 
+representation using a neural network. The transformed input is then decoded using anothe r 
+neural network. Then, these outputs undergo another transformation and a softmax l ayer. The 
+final output is a vector of probabilities over the vocabularies. Meaningful informatio n is extracted 
+based on these probabilities. 
+ 
+Q69 What are attention mechanisms and why do we use them? 
+This was a followup to the encoder-decoder question. Only the output from  the last time step is 
+passed to the decoder, resulting in a loss of information learned at previou s time steps. This 
+information loss is compounded for longer text sequences with more time steps. 
+Attention mechanisms are a function of the hidden weights at each time  step. When we use 
+attention in encoder-decoder networks, the fixed-dimensional vector passed to t he decoder 
+becomes a function of all vectors outputted in the intermediary steps. 
+Two commonly used attention mechanisms are additive attention and multiplicative attention. A s 
+the names suggest, additive attention is a weighted sum while multiplicative attention i s a 
+weighted multiplier of the hidden weights. During the training process, the m odel also learns 
+weights for the attention mechanisms to recognize the relative importance of each time step. 
+ 
+Q70 How would you implement an NLP system as a service, and what are some 
+pitfalls you might face in production? 
+This is less of a NLP question than a question for productionizing machine learning models. There 
+are however certain intricacies to NLP models. 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  Without diving too much into the productionization aspect, an ideal Machine Learning service wi ll 
+have: 
+● endpoint(s) that other business systems can use to make inference 
+● a feedback mechanism for validating model predictions 
+● a database to store predictions and ground truths from the feedback 
+● a workflow orchestrator which will (upon some signal) re-train and load the ne w model for 
+serving based on the records from the database + any prior training data 
+● some form of model version control to facilitate rollbacks in case of bad deployments 
+● post- production accuracy and error monitoring 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q71 How can we handle misspellings for text input? 
+By using word embeddings trained over a large corpus (for instance, an extensive web scrape of 
+billions of words), the model vocabulary would include common misspellings by design. The 
+model can then learn the relationship between misspelled and correctly spelled words to 
+recognize their semantic similarity. 
+We can also preprocess the input to prevent misspellings. Terms not found in the m odel 
+vocabulary can be mapped to the “closest” vocabulary term using:  
+● edit distance between strings 
+● phonetic distance between word pronunciations 
+● keyword distance to catch common typos 
+ 
+Q72 Which of the following models can perform tweet classification with regards 
+to context mentioned above? 
+A) Naive Bayes 
+B) SVM 
+C) None of the above 
+Solution: (C) 
+Since, you are given only the data of tweets and no other information, whi ch means there is no 
+target variable present. One cannot train a supervised learning model, both svm and naive bayes 
+are supervised learning techniques. 
+ 
+Q73 You have created a document term matrix of the data, treating every tweet as 
+one document. Which of the following is correct, in regards to document term 
+matrix? 
+1. Removal of stopwords from the data will affect the dimensionality of data 
+2. Normalization of words in the data will reduce the dimensionality of data 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  3. Converting all the words in lowercase will not affect the dimensionality of the  data 
+A) Only 1 
+B) Only 2 
+C) Only 3 
+D) 1 and 2 
+E) 2 and 3 
+F) 1, 2 and 3 
+Solution: (D) 
+Choices A and B are correct because stopword removal will decrease the number of feature s in 
+the matrix, normalization of words will also reduce redundant features, and, convert ing all words 
+to lowercase will also decrease the dimensionality. 
+  
+ 
+ 
+ 
+ 
+Q74 Which of the following features can be used for accuracy improvement of a 
+classification model? 
+A) Frequency count of terms 
+B) Vector Notation of sentence 
+C) Part of Speech Tag 
+D) Dependency Grammar 
+E) All of these 
+Solution: (E) 
+All of the techniques can be used for the purpose of engineering features in a model. 
+  
+Q75 What percentage of the total statements are correct with regards to Topic 
+Modeling? 
+1. It is a supervised learning technique 
+2. LDA (Linear Discriminant Analysis) can be used to perform topic modeling 
+3. Selection of number of topics in a model does not depend on the size of data 
+4. Number of topic terms are directly proportional to size of the data 
+A) 0 
+B) 25 
+C) 50 
+D) 75 
+E) 100 
+Solution: (A) 
+LDA is unsupervised learning model, LDA is latent Dirichlet allocation, not Linear discriminant 
+analysis. Selection of the number of topics is directly proportional to the size of the dat a, while 
+number of topic terms is not directly proportional to the size of the data. Hence no ne of the 
+statements are correct. 
+  
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  Q76 In Latent Dirichlet Allocation model for text classification purposes, what does 
+alpha and beta hyperparameter represent- 
+A) Alpha: number of topics within documents, beta: number of terms within topi cs False 
+B) Alpha: density of terms generated within topics, beta: density of top ics generated within terms 
+False 
+C) Alpha: number of topics within documents, beta: number of terms within topi cs False 
+D) Alpha: density of topics generated within documents, beta: density of term s generated within 
+topics True 
+Solution: (D) 
+Option D is correct 
+ 
+ 
+ 
+ 
+ 
+Q77 What is the problem with ReLu? 
+● Exploding gradient(Solved by gradient clipping) 
+● Dying ReLu — No learning if the activation is 0 (Solved by parametric rel u) 
+● Mean and variance of activations is not 0 and 1.(Partially solved by subtracting around 0.5 
+from activation. Better explained in fastai videos) 
+ 
+Q78 What is the difference between learning latent features using SVD and getting 
+embedding vectors using deep network? 
+SVD uses linear combination of inputs while a neural network uses nonlinear combination . 
+ 
+Q79 What is the information in the hidden and cell state of LSTM? 
+Hidden stores all the information till that time step and cell state stores  particular information that 
+might be needed in the future time step. 
+Number of parameters in an LSTM model with bias 
+4(𝑚h+h²+h) where 𝑚 is input vectors size and h is output vectors size a.k.a. hidden 
+The point to see here is that mh dictates the model size as m>>h. Hence  it's important to have a 
+small vocab. 
+Time complexity of LSTM 
+seq_length*hidden² 
+Time complexity of transfomer 
+seq_length²*hidden 
+When hidden size is more than the seq_length(which is normally the case), transfomer is faster 
+than LSTM. 
+ 
+Q80 When is self-attention not faster than recurrent layers? 
+When the sequence length is greater than the representation dimensions. This is rare.  
+ 
+Q81 What is the benefit of learning rate warm- up? 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  Learning rate warm-up is a learning rate schedule where you have low (or lower) learning rate at 
+the beginning of training to avoid divergence due to unreliable gradients at the beginning. As t he 
+model becomes more stable, the learning rate would increase to speed up convergence. 
+ 
+Q82 What’s the difference between hard and soft parameter sharing in multi -task 
+learning? 
+Hard sharing is where we train for all the task at the same time and update our weights using all 
+the losses whereas soft sharing is where we train for one task at a time. 
+ 
+Q83 What’s the difference between BatchNorm and LayerNorm?  
+BatchNorm computes the mean and variance at each layer for every minibatch whereas 
+LayerNorm computes the mean and variance for every sample for each layer independently.  
+Batch normalisation allows you to set higher learning rates, increasing speed of  training as it 
+reduces the unstability of initial starting weights. 
+Q84 Difference between BatchNorm and LayerNorm? 
+BatchNorm — Compute the mean and var at each layer for every minibatch 
+LayerNorm — Compute the mean and var for every single sample for each layer independently 
+ 
+Q85 Why does the transformer block have LayerNorm instead of BatchNorm? 
+Looking at the advantages of LayerNorm, it is robust to batch size and works better as i t works at 
+the sample level and not batch level. 
+ 
+Q86 What changes would you make to your deep learning code if you knew there  
+are errors in your training data? 
+We can do label smoothening where the smoothening value is based on % error. If any particular 
+class has known error, we can also use class weights to modify the loss. 
+ 
+Q87 What are the tricks used in ULMFiT? (Not a great questions but checks the 
+awareness) 
+● LM tuning with task text 
+● Weight dropout 
+● Discriminative learning rates for layers 
+● Gradual unfreezing of layers 
+● Slanted triangular learning rate schedule 
+This can be followed up with a question on explaining how they help. 
+ 
+Q88 Tell me a language model whi ch doesn’t use dropout  
+ALBERT v2 — This throws a light on the fact that a lot of assumptions we take for granted are  
+not necessarily true. The regularisation effect of parameter sharing in ALBERT is so strong that 
+dropouts are not needed. (ALBERT v1 had dropouts.) 
+ 
+Q89 What are the differences between GPT and GPT-2? (From Lilian Weng) 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  ● Layer normalization  was moved to the input of each sub-block, similar to a residual unit of 
+type “building block”  (differently from the original type  “bottleneck” , it has batch 
+normalization applied before weight layers). 
+● An additional layer normalization was added after the final self-attention block. 
+● A modified initialization was constructed as a function of the model depth. 
+● The weights of residual layers were initially sca led by a factor of 1/√n where n is the 
+number of residual layers. 
+● Use larger vocabulary size and context size. 
+ 
+Q90 What are the differences between GPT and BERT? 
+ 
+● GPT is not bidirectional and has no concept of masking 
+● BERT adds next sentence prediction task in training and so it also has a seg ment 
+embedding 
+Q91 What are the differences between BERT and ALBERT v2? 
+● Embedding matrix factorisation(helps in reducing no. of parameters) 
+● No dropout 
+● Parameter sharing(helps in reducing no. of parameters and regularisation) 
+Q92 How does parameter sharing in ALBERT affect the training and inference time? 
+No effect. Parameter sharing just decreases the number of parameters. 
+Q93 How would you reduce the inference time of a trained NN model? 
+● Serve on GPU/TPU/FPGA 
+● 16 bit quantisation and served on GPU with fp16 support 
+● Pruning to reduce parameters 
+● Knowledge distillation (To a smaller transformer model or simple neural network) 
+● Hierarchical softmax/Adaptive softmax 
+● You can also cache results as explained here. 
+Q94 Would you use BPE with classical models? 
+Of course! BPE is a smart tokeniser and it can help us get a smaller vocabu lary which can help 
+us find a model with less parameters. 
+Q95 How would you make an arxiv papers search engine? (I was asked — How 
+would you make a plagiarism detector?) 
+ 
+Get top k results with TF-IDF similarity and then rank results with 
+● semantic encoding + cosine similarity 
+● a model trained for ranking 
+ 
+Steve Nouri                          https://www.linkedin.com/in/stevenouri/  Q96 Get top k results with TF-IDF similarity and then rank results with 
+● semantic encoding + cosine similarity 
+● a model trained for ranking 
+Q97 How would you make a sentiment classifier? 
+This is a trick question. The interviewee can say all things such as using transfer l earning and 
+latest models but they need to talk about having a neutral class too otherwise you can have really 
+good accuracy/f1 and still, the model will classify everything into positive or nega tive. 
+The truth is that a lot of news is neutral and so the training need s to have this class. The 
+interviewee should also talk about how he will create a dataset and his training st rategies like the 
+selection of language model, language model fine-tuning and using various datasets for multi-
+task learning. 
+Q98 What is the difference between regular expression and regular grammar? 
+A regular expression is the representation of natural language in the form of mathe matical 
+expressions containing a character sequence. On the other hand, regular grammar is th e 
+generator of natural language, defining a set of defined rules and syntax which the strings in the 
+natural l anguage must follow.  
+ 
+Q99 Why should we use Batch Normalization? 
+Once the interviewer has asked you about the fundamentals of deep learning architect ures, they 
+would move on to the key topic of improving your deep learning model’s perform ance.  
+Batch Normalization is one of the techniques used for reducing the training time of our deep 
+learning algorithm. Just like normalizing our input helps improve our logist ic regression model, we 
+can normalize the activations of the hidden layers in our deep learning model as well: 
+ 
+Q100 How is backpropagation different in RNN compared to ANN? 
+In Recurrent Neural Networks, we have an additional loop at each node: 
+This loop essentially includes a time component into the network as well. This helps in capturing 
+sequential information from the data, which could not be possible in a generic art ificial neural 
+network. 
+This is why the backpropagation in RNN is called Backpropagation through Time, as in  
+backpropagation at each time step."
+What do you know about NLP?,NLP stands for Natural Language Processing. It deals with making a machine understand the way human beings read and write in a language. This task is achieved by designing algorithms that can extract meaning from large datasets in audio or text format by applying machine learning algorithms.
+Give examples of any two real-world applications of NLP.,"1. Spelling/Grammar Checking Apps:The mobile applications and websites that offer users correct grammar mistakes in the entered text rely on NLP algorithms. These days, they can also recommend the following few words that the user might type, which is also because of specific NLP models being used in the backend. 2.ChatBots:Many websites now offer customer support through these virtual bots that chat with the user and resolve their problems. It acts as a filter to the issues that do not require an interaction with the companies’ customer executives. Begin Your Big Data Journey with ProjectPro's Project-BasedPySpark Online Course!"
+What is tokenization in NLP?,Tokenization is the process of splitting running text into words and sentences.
+What is the difference between stemming and lemmatization?,"Both stemming and lemmatization are keyword normalization techniques aiming to minimize the morphological variation in the words they encounter in a sentence. But, they are different from each other in the following way."
+What is NLU?,"NLU stands for Natural Language Understanding. It is a subdomain of NLP that concerns making a machine learn the skills of reading comprehension. A few applications of NLU include Machine translation (MT), Newsgathering, and Text categorization. It often goes by the name Natural Language Interpretation (NLI) as well."
+What do you know about Latent Semantic Indexing (LSI)?,LSI is a technique that analyzes a set of documents to find the statistical coexistence of words that appear together. It gives an insight into the topics of those documents. LSI is also known as Latent Semantic Analysis.
+List a few methods for,1. Bag-of-Words 2. Word Embedding
+What are stop words?,"Stop words are the words in a document that are considered redundant by NLP engineers and are thus removed from the document before processing it. Few examples are ‘is’, ‘the’, ‘are, ‘am’."
+What do you know about Dependency Parsing?,Dependency parsing is a technique that highlights the dependencies among the words of a sentence to understand its grammatical structure. It examines how the words of a sentence are linguistically linked to each other. These links are called dependencies.
+What is Text Summarization? Name its two types.,Text Summarizationis a method of converting a long-form text into a summary. The summary thus generated is expected to have critical ideas of the lengthy text. Two main types of Text Summarization are:
+What are false positives and false negatives?,"If a machine learning algorithm falsely predicts a negative outcome as positive, then the result is labeled as a false negative. And, if a machine learning algorithm falsely predicts a positive outcome as negative, then the result is labeled as a false positive."
+List a few methods for part-of-speech tagging.,"Rule-based tagging, HMM-tagging, transformation-based tagging, and memory-based tagging."
+What is a corpus?,"‘Corpus’ is a Latin word that means ‘body.’ Thus, a body of the written or spoken text is called a corpus. Recommended Reading:10 NLP Techniques Every Data Scientist Should Know"
+List a few real-world applications of the n-gram model.,1. Augmentive Communication 2. Part-of-speech Tagging 3. Natural language generation 4. Word Similarity 5. Authorship Identification 6. Sentiment Extraction 7. Predictive Text Input
+What does TF*IDF stand for? Explain its significance.,"TF*IDF stands for Term-Frequency/Inverse-Document Frequency. It is an information-retrieval measure that encapsulates the semantic significance of a word in a particular document N, by degrading words that tend to appear in a variety of different documents in some huge background corpus with D documents. Letnwdenote the frequency of a wordwin the documentN,mrepresents the total number of documents in the corpus that contain w. Then, TF*IDF is defined as TF*IDF(w)=nw×lognm"
+What is perplexity in NLP?,"It is a metric that is used to test the performance of language models. Mathematically, it is defined as a function of the probability that the language model represents a test sample. For a test sample X = x1, x2, x3,....,xn, the perplexity is given by, PP(X)=P(x1,x2,…,xN)-1N where N is the total number of word tokens. Higher the perplexity, lesser is the information conveyed by the language model."
+Which algorithm in NLP supports bidirectional context?,BERT
+What is the Naive Bayes algorithm?,Naive Bayes is aclassification machine learning algorithmthat utilizes Baye’s Theorem for labeling a class to the input set of features. A vital element of this algorithm is that it assumes that all the feature values are independent.
+What is Part-of-Speech tagging?,Part-of-speech tagging is the task of assigning a part-of-speech label to each word in a sentence. A variety of part-of-speech algorithms are available that contain tagsets having several tags between 40 and 200.
+What is the bigram model in NLP?,"A bigram model is a model used in NLP for predicting the probability of a word in a sentence using the conditional probability of the previous word. For calculating the conditional probability of the previous word, it is crucial that all the previous words are known."
+What is the significance of the Naive Bayes algorithm in NLP?,"The Naive Bayes algorithm is widely used in NLP for various applications. For example: to determine the sense of a word, to predict the tag of a given text, etc."
+What do you know about the Masked Language Model?,The Masked Language Model is a model that takes a sentence with a few hidden (masked) words as input and tries to complete the sentence by correctly guessing those hidden words.
+Briefly describe the N-gram model in NLP.,"N-gram model is a model in NLP that predicts the probability of a word in a given sentence using the conditional probability of n-1 previous words in the sentence. The basic intuition behind this algorithm is that instead of using all the previous words to predict the next word, we use only a few previous words."
+What is the Markov assumption for the bigram model?,The Markov assumption assumes for the bigram model that the probability of a word in a sentence depends only on the previous word in that sentence and not on all the previous words.
+What do you understand by word embedding?,"In NLP, word embedding is the process of representing textual data through a real-numbered vector. This method allows words having similar meanings to have a similar representation."
+What is an embedding matrix?,A word embedding matrix is a matrix that contains embedding vectors of all the words in a given text.
+List a few popular methods used for word embedding.,Following are a few methods of word embedding.
+How will you use Python’s concordance command in,"The concordance() function can easily be accessed for a text that belongs to the NLTK package using the following code: >>>from nltk.book import * >>>text1.concordance(""monstrous"") However, for a text that does not belong to the NLTK package, one has to use the following code to access that function. >>>import nltk.corpus >>>from nltk.text import Text >>>NLTKtext = Text(nltk.corpus.gutenberg.words('Your_file_name_here.txt')) >>>NLTKtext.concordance('word') Here, we have created a Text object to access the concordance() function. The function displays the occurrence of the chosen word and the context around it."
+Write the code to count the number of distinct tokens in a text?,len(set(text))
+What are the first few steps that you will take before applying an NLP machine-learning algorithm to a given corpus?,Ans: 1. Removing white spaces 2. Removing Punctuations 3. Converting Uppercase to Lowercase 4.Tokenization 5.Removing Stopwords 6. Lemmatization
+"For correcting spelling errors in a corpus, which one is a better choice: a giant dictionary or a smaller dictionary, and why?","Initially, a smaller dictionary is a better choice because most NLP researchers feared that a giant dictionary would contain rare words that may be similar to misspelled words. However, later it was found (Damerau and Mays (1989)) that in practice, a more extensive dictionary is better at marking rare words as errors."
+Do you always recommend removing punctuation marks from the corpus you’re dealing with? Why/Why not?,"No, it is not always a good idea to remove punctuation marks from the corpus as they are necessary for certainNLP applicationsthat require the marks to be counted along with words. For example: Part-of-speech tagging, parsing, speech synthesis."
+List a few libraries that you use for NLP in Python.,"NLTK, Scikit-learn,GenSim, SpaCy, CoreNLP, TextBlob."
+"7, Suggest a few machine learning/deep learning modelsthat are used in NLP.","Support Vector Machines, Neural Networks, Decision Tree, Bayesian Networks."
+Which library contains the Word2Vec model in Python?,GenSim
+Is converting all text in uppercase to lowercase always a good idea? Explain with the help of an example.,"No, for words like The, the, THE, it is a good idea as they all will have the same meaning. However, for a word like brown which can be used as a surname for someone by the name Robert Brown, it won’t be a good idea as the word ‘brown’ has different meanings for both the cases. We, therefore, would want to treat them differently. Hence, it is better to change uppercase letters at the beginning of a sentence to lowercase, convert headings and titles to which are all in capitals to lowercase, and leave the remaining text unchanged."
+What is a hapax/hapax legomenon?,The rare words that only occur once in a sample text or corpus are called hapaxes. Each one of them is called an hapax or hapax legomenon (greek for ‘read-only once’). It is also called a singleton.
+"Is tokenizing a sentence based on white-space ‘ ‘ character sufficient? If not, give an example where it may not work.","Tokenizing a sentence using the white space character is not always sufficient. Consider the example, “ One of our users said, ‘I love Dezyre’s content’. ” Tokenizing purely based on white space would result in the following words: ‘I        said,   content’."
+What is a collocation?,"A collocation is a group of two or more words that possess a relationship and provide a classic alternative of saying something. For example, ‘strong breeze’, ‘the rich and powerful’, ‘weapons of mass destruction."
+List a few types of linguistic ambiguities.,"1. Lexical Ambiguity:This type of ambiguity is observed because of homonyms and polysemy in a sentence. 2. Syntactic Ambiguity:A syntactic ambiguity is observed when based on the sentence’s syntax, more than one meaning is possible. 3. Semantic Ambiguity:This ambiguity occurs when a sentence contains ambiguous words or phrases that have ambiguous meanings."
+What is a Turing Test? Explain with respect to NLP-based systems.,"Alan Turing developed a test, called Turing Test, that could differentiate between humans and machines. A computer machine is considered intelligent if it can pass this test through its use of language. Alan believed that if a machine could use language the way humans do, it was sufficient for the machine to prove its intelligence."
+What do you understand by regular expressions in NLP?,Regular expressions in natural language processing are algebraic notations representing a set of strings. They are mainly used to find or replace strings in a text and can also be used to define a language in a formal way.
+Define the term parsing concerning NLP.,"Parsing refers to the task of generating a linguistic structure for a given input. For example, parsing the word ‘helping’ will result inverb-pass +gerund-ing."
+Calculate the Levenshtein distance between two sequences ‘intention’ and ‘execution’., The image above can be used to understand the number of editing steps it will take for the word intention to transform into execution.
+What are the full listing hypothesis and minimum redundancy hypothesis?,"These are the two hypotheses relating to the way humans store words of a language in their memory. Full Listing Hypothesis:This hypothesis suggests that all humans perceive all the words in their memory without any internal morphological structure. So, words like tire, tiring, tired are all stored separately in the mental lexicon. Minimum Redundancy Hypothesis:This hypothesis proposes that only the raw form of the words (morphemes) form the part of the mental lexicon. When humans process a word like tired, they recall both the morphemes (tire-d). The interview round is of course the most important round that an applicant must focus on. But, without any hands-on experience in solving real-world problems, it would be difficult for you to clear the technical rounds. Check out thesesolved end-to-end NLP Projectsfrom our repository that will guide you through the exciting applications of NLP in the tech world."
+"What is Natural Language Processing (NLP), and why is it important?","Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. It involves teaching machines to understand, interpret, and generate human language in a way that is valuable. NLP is important because it enables applications like translation services, sentiment analysis, chatbots, and more, which can process large amounts of data quickly and efficiently. It helps in automating routine tasks, improving customer service, and providing insights from unstructured data. When evaluating the candidate’s response, look for a clear and concise explanation, an understanding of practical applications, and the ability to relate NLP to real-world scenarios and benefits."
+Can you explain the difference between NLP and text mining?,"NLP and text mining are closely related but serve different purposes. NLP focuses on understanding and generating human language using computational techniques. It's about enabling machines to comprehend and respond in human language. Text mining, on the other hand, involves extracting useful information from text data. It's more about analyzing large volumes of text to find patterns, trends, or insights. An ideal candidate should be able to distinguish between the objectives and processes of NLP and text mining. Look for explanations that include examples of applications of both fields."
+What are some common challenges faced in NLP?,"Some common challenges in NLP include handling ambiguity in language, dealing with different languages and dialects, understanding context and sentiment, and managing unstructured data. Other challenges include the need for large annotated datasets for training models and ensuring privacy and ethical considerations in data usage. Candidates should mention real-world challenges they have encountered and how they addressed them. This shows practical experience and problem-solving skills."
+How does sentiment analysis work in NLP?,"Sentiment analysis in NLP involves identifying and categorizing opinions expressed in a piece of text to determine whether the sentiment is positive, negative, or neutral. It typically involves techniques such as tokenization, stopword removal, and the use of algorithms like machine learning classifiers or lexicon-based approaches to analyze the sentiment. Look for candidates who can explain the steps and methods used in sentiment analysis clearly, and provide examples of tools or libraries they have used."
+"What are stop words, and why are they removed in text processing?","Stop words are common words that occur frequently in a language but carry little meaning by themselves, such as 'and', 'the', 'is', etc. They are usually removed in text processing to reduce the dimensionality and improve the performance of NLP models. Removing stop words helps in focusing on the more meaningful words that contribute to the context and content of the text, making the analysis more efficient. Candidates should demonstrate an understanding of the importance of stop words and provide examples of situations where removing them improved their results."
+Can you explain the concept of tokenization in NLP?,"Tokenization is the process of breaking down a text into smaller units called tokens, which can be words, phrases, or even sentences. It is a crucial step in preprocessing text data for NLP tasks. Tokenization helps in converting unstructured text into a structured format that can be easily analyzed by machines. It involves splitting text based on delimiters like spaces, punctuation marks, or using more advanced techniques for languages that do not use spaces. Candidates should explain the importance of tokenization and mention any tools or libraries they have used for this purpose. Look for an understanding of different types of tokenization and their applications."
+"What is a Bag-of-Words model, and how is it used in NLP?","The Bag-of-Words (BoW) model is a simple and widely used method in NLP for representing text data. It involves converting text into a vector of word frequencies, ignoring grammar and word order. Each unique word in the text corpus becomes a feature, and the vector represents the count of each word in a document. This model is used for tasks like text classification and clustering. Candidates should explain the BoW model clearly and mention its limitations, such as the loss of context and word order. Look for examples of how they have used BoW in their projects."
+"What is named entity recognition (NER), and why is it important?","Named Entity Recognition (NER) is an NLP technique used to identify and classify named entities in text into predefined categories like names of persons, organizations, locations, dates, etc. NER is important because it helps in extracting structured information from unstructured text, making it easier to analyze and understand. It is used in applications like information retrieval, question answering, and more. Candidates should provide a clear explanation of NER and mention any tools or libraries they have used for NER tasks. Look for examples of practical applications and challenges faced."
+How do you evaluate the performance of an NLP model?,"The performance of an NLP model is typically evaluated using metrics such as accuracy, precision, recall, F1-score, and sometimes specific metrics like BLEU score for machine translation. It is also important to evaluate the model on a diverse set of data to ensure it generalizes well and to perform error analysis to understand where the model fails. Candidates should mention the importance of using multiple metrics and provide examples of how they have evaluated their models. Look for an understanding of the trade-offs between different metrics."
+Can you explain the difference between supervised and unsupervised learning in the context of NLP?,"In the context of NLP, supervised learning involves training a model on a labeled dataset, where the input and the corresponding output are known. It is commonly used for tasks like text classification, sentiment analysis, and named entity recognition. Unsupervised learning, on the other hand, involves training a model on an unlabeled dataset, where the structure and patterns in the data are unknown. It is used for tasks like topic modeling and clustering. Candidates should provide clear definitions and examples of both types of learning. Look for an understanding of when to use each approach and the challenges associated with them. When interviewingjunior engineersfor NLP positions, it's crucial to assess their foundational knowledge and practical skills. Use these questions to gauge candidates' understanding of core NLP concepts and their ability to apply them in real-world scenarios. To gauge whether your mid-tier engineering candidates have the right proficiency in Natural Language Processing, these 10 intermediate NLP interview questions will be your go-to resource. This list will help you assess their practical knowledge and problem-solving abilities, ensuring they can handle the complexities of real-world NLP tasks."
+Can you explain the concept of word sense disambiguation (WSD) and its significance in NLP?,"Word sense disambiguation (WSD) is the process of determining which sense of a word is used in a given context. This is crucial in NLP because many words have multiple meanings, and understanding the correct sense is essential for tasks like text analysis, machine translation, and information retrieval. An ideal candidate should mention that WSD enhances the accuracy of NLP applications by enabling more precise semantic understanding. They might also explain different WSD approaches, such as knowledge-based methods, supervised learning, and unsupervised learning. Look for answers that demonstrate a clear understanding of the importance of context in interpreting word meanings and mention real-world applications where WSD plays a critical role."
+How do you handle noisy text data in NLP projects?,"Handling noisy text data involves several preprocessing steps to clean and prepare the data for analysis. Common techniques include removing or correcting misspellings, filtering out non-textual elements (like HTML tags), and normalizing text by converting it to lowercase. Candidates might also mention using regular expressions for pattern matching and removing unnecessary characters. In addition, they could discuss the application of more advanced techniques, such as using machine learning models to detect and correct noise. An ideal response should highlight the importance of preprocessing in improving model accuracy and efficiency. Look for examples of how candidates have successfully managed noisy data in past projects and any specific tools or libraries they used."
+What are some approaches to handling sarcasm and irony in sentiment analysis?,"Handling sarcasm and irony in sentiment analysis is challenging because these forms of expression often convey sentiments opposite to the literal meaning of the words used. One approach is to use contextual information and advanced models like deep learning that can capture subtle nuances in the text. Candidates might also discuss the use of additional data sources, such as user profiles or historical data, to better understand the context. Another approach is to incorporate features like punctuation marks, emojis, and hashtags, which can provide additional clues about the intended sentiment. Look for candidates who can articulate the difficulties involved and propose practical solutions. They should demonstrate an understanding of the limitations of current techniques and discuss ongoing research or emerging methods in this area."
+How do you ensure that your NLP model is not biased?,"Ensuring an NLP model is not biased involves several steps, starting with carefully curating a diverse and representative training dataset. It's also essential to monitor for bias during the data preprocessing and model training phases. Candidates might mention techniques like re-sampling the data, using fairness-aware algorithms, or applying debiasing methods to mitigate bias. They could also discuss the importance of continuous evaluation and auditing of the model's performance on different demographic groups. An ideal answer should reflect an awareness of the ethical implications of biased models and propose concrete steps to identify and reduce bias. Look for candidates who can provide examples of how they've addressed bias in their previous work."
+What are some common techniques for text classification in NLP?,"Common techniques for text classification in NLP include traditional machine learning methods like Naive Bayes, Support Vector Machines (SVM), and Decision Trees. These methods often require feature extraction techniques such as Bag-of-Words, TF-IDF, or word embeddings. In recent years, deep learning approaches like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), particularly Long Short-Term Memory (LSTM) networks and transformers, have become popular for text classification tasks due to their ability to capture complex patterns in the data. Look for candidates who can compare and contrast these approaches, discussing their advantages and limitations. They should also mention the importance of feature engineering and preprocessing in achieving good classification performance."
+Can you describe the importance of context in NLP and how it can be captured in models?,"Context is crucial in NLP because the meaning of words and phrases often depends on their surrounding text. Capturing context can significantly improve the performance of NLP models, particularly for tasks like machine translation, question answering, and text summarization. Techniques for capturing context include using word embeddings like Word2Vec or GloVe, which represent words in a continuous vector space that captures semantic relationships. More advanced methods like contextual embeddings (e.g., BERT or GPT) use transformers to capture context dynamically based on the entire sentence or paragraph. An ideal candidate should highlight the role of context in understanding nuances and ambiguities in language. They should provide examples of how context-aware models have improved performance in specific NLP tasks and discuss any trade-offs involved in using these models."
+How do you approach evaluating the performance of an NLP model?,"Evaluating the performance of an NLP model typically involves using metrics like accuracy, precision, recall, and F1-score. The choice of metric depends on the specific task and the importance of false positives versus false negatives. Candidates might also mention the use of cross-validation to ensure the model's robustness and the creation of a validation set that is representative of the test data. For more complex tasks, human evaluation or domain-specific metrics might be necessary. Look for answers that demonstrate a thorough understanding of evaluation metrics and their appropriate use. Candidates should also discuss the importance of continuous monitoring and the potential need for model retraining as new data becomes available."
+What strategies do you use for feature extraction in text data?,"Feature extraction in text data involves transforming raw text into numerical representations that can be used by machine learning models. Common techniques include Bag-of-Words, TF-IDF, and word embeddings like Word2Vec, GloVe, or FastText. Candidates might also discuss more advanced methods like contextual embeddings (e.g., BERT or GPT) and the use of domain-specific lexicons or ontologies. They could mention the importance of capturing both syntactic and semantic information in the features. An ideal response should highlight the importance of selecting the right feature extraction technique based on the specific task and dataset. Look for examples of how candidates have used different methods in their previous projects and the impact on model performance."
+How would you handle missing data in an NLP dataset?,"Handling missing data in an NLP dataset can be approached in several ways, depending on the extent and nature of the missing data. Simple strategies include removing records with missing values or imputing missing data with a placeholder (e.g., 'UNK' for unknown). More sophisticated methods involve using machine learning models to predict the missing values or leveraging context from surrounding text to fill in gaps. Candidates might also mention the use of data augmentation techniques to generate synthetic data. Look for responses that demonstrate an understanding of the trade-offs involved in different approaches. Candidates should discuss the impact of missing data on model performance and provide examples of how they've handled similar issues in the past."
+What are some challenges and solutions for processing large-scale text data?,"Processing large-scale text data presents several challenges, including computational limitations, memory constraints, and the need for efficient data storage and retrieval. Common solutions involve using distributed computing frameworks like Hadoop or Spark to parallelize processing tasks. Candidates might also discuss the use of cloud-based services and infrastructure to scale processing capabilities, as well as techniques like data sampling or dimensionality reduction to manage data size. They could mention the importance of optimizing algorithms and code for efficiency. An ideal answer should highlight practical experience with handling large-scale text data, including specific tools and techniques used. Look for examples of how candidates have overcome scalability challenges in their previous work and any lessons learned. To determine whether your applicants have the right technical understanding of Natural Language Processing (NLP), ask them some of these NLP interview questions about technical definitions. These questions focus on key concepts and techniques in NLP and are designed to help you identify candidates with strong foundational knowledge. For more information on what skills to look for, check out ourNLP engineer job description. To determine whether your applicants have the right skills to navigate machine learning techniques in NLP, ask them some of these questions. This list will help you gauge their practical knowledge and problem-solving abilities, ensuring they are well-equipped for the role. For a detailed understanding of the skills required, refer to theNLP engineer job description. To determine whether your applicants have the right technical understanding of Natural Language Processing (NLP), ask them some of these interview questions about technical definitions. This list will help you gauge their fundamental knowledge and see if they can translate complex concepts into simple explanations."
+What is the difference between semantics and syntax in NLP?,"Semantics refers to the meaning of words and sentences, while syntax is about the arrangement of words to form a sentence. In other words, semantics is concerned with what the text actually means, whereas syntax focuses on the structure. An ideal candidate should be able to distinguish between the two and provide examples of how each is used in NLP. Look for clarity in their explanations and an understanding of how these concepts apply in practical NLP tasks."
+Can you explain the concept of word embeddings?,"Word embeddings are a type of word representation that allows words to be represented as vectors in a continuous space. This technique captures the context of a word in a document, its semantic and syntactic similarity, and its relationship with other words. A strong candidate will discuss how word embeddings like Word2Vec or GloVe are used to improve the performance of NLP models by providing a richer representation of text data. They may also mention how these embeddings can reduce the dimensionality of the text data while preserving its meaning."
+What is the role of text preprocessing in NLP?,"Text preprocessing involves cleaning and preparing text data for analysis. It includes steps like removing punctuation, converting text to lowercase, tokenization, removing stop words, and text normalization. Candidates should highlight the importance of preprocessing in improving the accuracy and efficiency of NLP models. They should be able to explain how preprocessing helps in reducing noise and making the data more manageable and meaningful for model training. Look for candidates who can articulate the various preprocessing techniques and their significance in creating robust NLP pipelines."
+How does a naive Bayes classifier work in text classification?,"A naive Bayes classifier is based on applying Bayes' theorem with strong (naive) independence assumptions between the features. In the context of text classification, it calculates the probability of each class given a set of words (features) and assigns the class with the highest probability to the text. Ideal answers should demonstrate an understanding of the probabilistic nature of the model and how it uses word frequencies to make predictions. They may mention its applications in spam detection and sentiment analysis. Candidates should also be aware of the strengths and limitations of the naive Bayes classifier, such as its simplicity and efficiency, but also its assumption of feature independence."
+What is the significance of the TF-IDF (Term Frequency-Inverse Document Frequency) technique in NLP?,TF-IDF is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents (corpus). It combines term frequency (how often a word appears in a document) and inverse document frequency (how common or rare the word is across all documents). Candidates should explain how TF-IDF helps in identifying important words that are not too common across documents. They might discuss its role in information retrieval and text mining applications. Look for candidates who can clearly explain the formula and its components and how TF-IDF improves the relevance of text features for tasks like document classification and clustering.
+Describe the process of text segmentation in NLP.,"Text segmentation involves dividing text into meaningful units such as words, sentences, or topics. This process is crucial for various NLP tasks, including tokenization, sentence boundary detection, and topic modeling. Strong candidates should discuss different segmentation techniques and tools, such as rule-based methods, machine learning models, and deep learning approaches. Look for an understanding of how segmentation impacts downstream NLP applications and the challenges involved, such as handling ambiguities and different languages."
+"What is lexical analysis, and why is it important in NLP?","Lexical analysis is the process of converting a sequence of characters into a sequence of tokens. It involves identifying and categorizing individual words or symbols in the text. Candidates should explain how lexical analysis serves as the foundation for more complex NLP tasks by providing a structured representation of the text. They might mention its importance in preprocessing and parsing stages. Ideal answers will include examples of tools or libraries used for lexical analysis and discuss common challenges, such as dealing with special characters and different language scripts."
+Can you explain the concept of syntactic parsing?,"Syntactic parsing, also known as parsing or syntax analysis, is the process of analyzing the grammatical structure of a sentence. It involves identifying the syntactic relationships between words and generating a parse tree or dependency graph. Candidates should discuss how syntactic parsing helps in understanding the structure and meaning of sentences, enabling downstream tasks like machine translation and information extraction. Look for an understanding of different parsing techniques (e.g., constituency parsing, dependency parsing) and their applications in various NLP tasks."
+"What is sentiment analysis, and how is it used in NLP?","Sentiment analysis is the process of determining the sentiment or emotional tone expressed in a piece of text. It involves classifying text as positive, negative, or neutral based on the words and phrases used. Strong candidates should explain how sentiment analysis is used to gauge public opinion, monitor brand reputation, and analyze customer feedback. They might discuss techniques like rule-based methods, machine learning classifiers, and deep learning models. Look for an understanding of the challenges in sentiment analysis, such as handling sarcasm, context, and varying expressions of sentiment. Candidates should also be aware of the importance of training data and model evaluation metrics. Ready to dive into the world of Natural Language Processing and machine learning? These nine questions will help you assess candidates' understanding of key NLP concepts and techniques. Use them to gauge how well applicants can applymachine learningapproaches to language-related challenges. Remember, the best responses will blend technical knowledge with practical application!"
+How would you approach building a text classification model for spam detection?,"A strong candidate should outline a step-by-step approach for building a text classification model for spam detection. They might describe the following process: Look for candidates who emphasize the importance of data quality, feature engineering, and model evaluation. They should also mention potential challenges like handling imbalanced datasets or dealing with evolving spam tactics."
+Explain the concept of word sense disambiguation and its importance in NLP applications.,"Word sense disambiguation (WSD) is the task of determining which sense or meaning of a word is being used in a particular context. This is crucial in NLP because many words have multiple meanings, and understanding the correct sense is essential for accurate language processing. For example, the word 'bank' could refer to a financial institution or the edge of a river. WSD helps NLP systems choose the correct meaning based on the surrounding context. Look for candidates who can explain the importance of WSD in various NLP applications, such as machine translation, information retrieval, and text summarization. They should also be able to discuss different approaches to WSD, including knowledge-based methods, supervised learning techniques, and more recent deep learning models."
+How would you handle out-of-vocabulary words when implementing a language model?,Handling out-of-vocabulary (OOV) words is a common challenge in NLP. A good candidate should be able to discuss several strategies: Look for candidates who can explain the trade-offs between these approaches and discuss how the choice might depend on the specific application and available data. They should also mention the importance of handling OOV words during both training and inference stages.
+Describe the concept of attention mechanism in neural networks for NLP tasks.,"The attention mechanism is a technique that allows neural networks to focus on specific parts of the input when producing an output. In NLP, it's particularly useful for tasks involving long sequences, where traditional methods might lose important information. Key points a candidate might mention: Look for candidates who can explain how attention addresses the limitations of fixed-length context vectors in sequence-to-sequence models. They should also be able to discuss different types of attention (e.g., soft vs. hard attention) and mention real-world applications where attention has made a significant impact, such as in machine translation ortext summarization."
+How would you approach the task of named entity recognition (NER) using machine learning?,"Named Entity Recognition (NER) is the task of identifying and classifying named entities (like persons, organizations, locations) in text. A strong candidate should outline a machine learning approach to NER: Look for candidates who understand the sequence labeling nature of NER and can discuss the challenges, such as handling ambiguous entities or dealing with domain-specific named entities. They should also be aware of recent advancements, like the use of pre-trained language models for NER tasks."
+Explain the concept of transfer learning in NLP and give an example of its application.,"Transfer learning in NLP involves using knowledge gained from one task to improve performance on a different, but related, task. This approach is particularly powerful when dealing with limited labeled data for the target task. A common example is using pre-trained language models like BERT or GPT. These models are trained on large amounts of general text data and can then be fine-tuned for specific tasks like sentiment analysis, question answering, or text classification with relatively small amounts of task-specific data. Look for candidates who can explain the benefits of transfer learning, such as reduced training time and improved performance on tasks with limited data. They should also be aware of potential challenges, like catastrophic forgetting or domain mismatch between the source and target tasks. Candidates might also discuss more advanced concepts like few-shot or zero-shot learning in the context of transfer learning."
+How would you handle multilingual text processing in an NLP project?,"Handling multilingual text processing requires careful consideration of various factors. A strong candidate should discuss several approaches: Look for candidates who understand the challenges of multilingual processing, such as handling languages with different scripts, word order, or grammatical structures. They should also be aware of recent advancements in multilingual models like mBERT or XLM-R, which can process multiple languages without explicit translation."
+Describe the process of building a simple chatbot using NLP techniques.,"Building a simple chatbot using NLP techniques typically involves the following steps: Look for candidates who can explain different approaches to each step, such as rule-based vs. machine learning-based intent recognition, or template-based vs. generative response generation. They should also discuss considerations like handling context, managing conversation state, and dealing with ambiguity or errors in user input. Bonus points if they mention techniques for improving the chatbot over time, such as incorporating user feedback or using reinforcement learning."
+How would you approach the problem of sentiment analysis for social media posts?,"Approaching sentiment analysis for social media posts requires considering several unique challenges. A strong candidate might outline the following approach: Look for candidates who understand the nuances of social media text, such as informal language, abbreviations, and the use of emojis to convey sentiment. They should also discuss strategies for dealing with imbalanced datasets (as positive and negative sentiments might not be equally represented) and methods for handling multi-class sentiment analysis (e.g., very negative, negative, neutral, positive, very positive). Assessing a candidate's full range of skills and capabilities in a single interview is challenging. However, focusing on certain key skills during the interview phase is important for gauging their potential in Natural Language Processing (NLP). Here are the core skills to evaluate to ensure you find the right fit for your team."
+Text Preprocessing,"You can use an assessment test that asks relevantMCQsto filter out this skill. Consider using ourNatural Language Processing Testfor this purpose. During the interview, you can ask targeted questions to assess the candidate's understanding and experience with text preprocessing techniques. Can you explain the process you would use to clean and preprocess a large corpus of text data? Look for candidates who mention steps like tokenization, removing stop words, stemming, lemmatization, and handling different types of noise in the data. Their ability to detail these steps demonstrates their understanding of text preprocessing."
+Feature Engineering,"You can filter candidates' skills in feature engineering by using ourMachine Learning Testto assess their knowledge in this area indirectly. Asking targeted questions about feature engineering can help you understand a candidate's creativity and problem-solving skills in complex NLP tasks. How would you create features for a sentiment analysis model from a set of product reviews? Candidates should mention techniques like TF-IDF, word embeddings, n-grams, and possibly domain-specific features. Their ability to explain why and how they would use these features is key."
+Model Evaluation,"Use ourMachine Learning Testwhich includes questions on model evaluation techniques to gauge this skill. In the interview, you can ask questions focused on evaluating NLP models to see if the candidate understands different metrics and validation techniques. What metrics would you use to evaluate a named entity recognition model, and why? Look for answers mentioning precision, recall, F1-score, and the importance of a balanced dataset for validation. Candidates should also discuss the trade-offs between these metrics. Before you start putting what you've learned into practice, here are our tips for using NLP interview questions effectively."
+Leverage Skill Tests Before Interviews,"Using skill tests before interviews can help you filter out unsuitable candidates early, saving time and resources. Consider using specialized tests such as theAdaface NLP Online Testor theMachine Learning Online Test. The benefits of this approach include a more focused interview process, as you'll be speaking only to those who have demonstrated the required skills. This ensures your interviews are both efficient and effective."
+Compile and Outline Your Interview Questions,"Time during an interview is limited, so it's important to carefully select the most relevant questions to assess the candidate’s abilities. Include questions that cover a range of skills and topics. For instance, you could incorporate questions related to both technical definitions and machine learning techniques. Additionally, consider including somesoft skills interview questionsto ensure a holistic evaluation of the candidate."
+Ask Follow-Up Questions,"Simply asking the prepared questions may not be enough. Follow-up questions can help you gauge the depth of a candidate's knowledge and their problem-solving capabilities. For example, if you ask a candidate to explain the concept of word embeddings, a good follow-up question could be, 'Can you describe a scenario where using word embeddings would be advantageous?' This helps you assess not just their theoretical knowledge but also their practical understanding. If you are looking to hire someone with NLP skills, you need to ensure they have those skills accurately. The best way to do this is by using skill tests such as ourNLP online test. Once you use this test, you can shortlist the best applicants and call them for interviews. To get started, sign up on ourdashboardor check out ouronline assessment platform."
+40 min skill tests.No trick questions.Accurate shortlisting.,We make it easy for you to find the best candidates in your pipeline with a 40 min skills test.

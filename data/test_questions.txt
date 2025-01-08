@@ -1,0 +1,30 @@
+What is Natural Language Processing (NLP)?
+Explain the difference between NLP and text mining.
+What are stop words, and why are they removed in NLP?
+What is tokenization in NLP?
+How can I prepare for a Natural Language Processing (NLP) interview?
+Which technique can be used for noun phrase detection in NLP?
+What is the purpose of Part-of-Speech (POS) tagging in NLP?
+How does named entity recognition (NER) work, and what are its applications?
+Define Dependency Parsing and its importance in NLP.
+What is the Bag-of-Words (BoW) model?
+How is TF-IDF used for text representation in NLP?
+What is word embedding, and how is it different from one-hot encoding?
+Explain the Skip-Gram model in Word2Vec.
+How does Transfer Learning improve NLP model performance?
+What are the advantages of using pre-trained models in NLP?
+How does a Transformer model work in NLP?
+What is the significance of the attention mechanism in NLP models?
+How do BERT and GPT differ in their approach to NLP tasks?
+What is a language model, and why is it important in NLP?
+Explain the concept of fine-tuning a pre-trained model for NLP tasks.
+How is sentiment analysis performed using NLP techniques?
+What are some real-world applications of NLP in healthcare?
+How does machine translation work in NLP?
+What is text summarization, and how can it be implemented in NLP?
+How does question answering work in NLP systems?
+What are some common challenges in text preprocessing for NLP?
+How does ambiguity in human language affect NLP systems?
+What are the limitations of current NLP models?
+How does NLP handle multilingual text?
+How can NLP models be evaluated for performance and accuracy?
